@@ -18,28 +18,24 @@
                 <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-black-glyph-900x900.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 Instagram
             </a>
-            <div class="nav navbar-nav navbar-right">
-                <ul class="nav navbar-nav">
-                    <li class="float-right"><button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-success btn-sm mr-5">Create a new post</button></li>
-                    
-                </ul>
-               
-            </div>
-                <div class="dropdown d-inline-block">
-                    <button class="btn dropdown-toggle float-right ml-2 p-2 top-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
-                        <span class="caret glyphicon glyphicon-cog"></span>
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="float-right"><button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-success btn-sm">Create a new post</button></li>
+            </ul>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                    <span class="caret glyphicon glyphicon-cog"></span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
                 </div>
+              </div>
             <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
-                    <div class="modal-header justify-content-center w-100">
-                      <textarea class="w-100 rounded" type="text"></textarea>
+                    <div class="modal-header">
+                      <input type="text">
                     </div>
                     <div class="modal-body">
                         <button class="btn btn-outline-secondary"><span class="glyphicon glyphicon-camera"></span></button>
